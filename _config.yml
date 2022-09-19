@@ -142,7 +142,9 @@ autoprefixer:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@gitlab.igem.org:2022/hnu-china.git # 仓库地址
+  branch: master
 
 
 
